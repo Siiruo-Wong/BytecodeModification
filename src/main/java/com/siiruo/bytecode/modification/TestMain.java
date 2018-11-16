@@ -25,6 +25,7 @@ public class TestMain {
                 return obj;
             }
         });
+        ///尝试调用代理对象，观察程序结果
         proxy.query("meng");
         System.out.println(proxy);
 
